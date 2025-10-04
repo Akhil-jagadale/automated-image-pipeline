@@ -1,15 +1,3 @@
-Perfect, I get you 👍 — right now the README I gave is **compact and professional**, but maybe a bit *too lightweight* for professionals who want to evaluate your project deeply.
-
-A good **professional README** should balance:
-
-1. **Quick glance info** → What it does, how to run it
-2. **Technical depth** → Features, architecture, performance, security, cost estimation
-3. **Trust factors** → Roadmap, contribution guidelines, acknowledgments
-
-So, here’s a **polished and slightly more detailed version** — still clean, but with the depth that professionals like to see:
-
----
-
 # Serverless Image Optimization Pipeline
 
 A serverless, event-driven image processing pipeline that automatically generates optimized, watermarked thumbnails when new images are uploaded to Amazon S3. Built with **AWS Lambda, Python, and Pillow**, this system is **scalable, secure, and cost-efficient** — perfect for production-ready image handling.
@@ -180,3 +168,4 @@ automated-image-pipeline/
 * [ ] Multi-region deployment support
 
 ---
+
