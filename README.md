@@ -150,11 +150,13 @@ Image sizes, watermark style, and quality can be customized inside `lambda_funct
 
 ```
 automated-image-pipeline/
-├── lambda_function.py     # Core processing logic
-├── config/                # Deployment configs
-├── examples/              # Sample events and images
-├── docs/                  # Extended docs
-└── README.md
+├── lambda_function.py     # Core AWS Lambda function (image processing logic)
+├── config/                # Deployment configs (e.g., IAM, S3, SNS settings)
+├── examples/              # Sample S3 event JSONs and test images
+├── docs/                  # Extended documentation (deployment, usage, troubleshooting)
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Git ignore rules
+└── README.md              # Project overview and instructions
 ```
 
 ---
@@ -168,4 +170,5 @@ automated-image-pipeline/
 * [ ] Multi-region deployment support
 
 ---
+
 
