@@ -1,6 +1,6 @@
-Deployment Guide
+*Deployment Guide*
 
-Prerequisites
+*Prerequisites*
 
 AWS Account
 AWS CLI installed and configured
