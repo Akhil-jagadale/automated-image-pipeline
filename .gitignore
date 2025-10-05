@@ -1,13 +1,21 @@
+# Python cache
 __pycache__/
 *.pyc
 *.py[cod]
+
+# Environment files
 .env
+venv/
+env/
+
+# Deployment artifacts
 *.zip
+deployment-package/
+
+# Logs
+*.log
+
+# OS/editor files
 .DS_Store
 .vscode/
 .idea/
-deployment-package/
-venv/
-env/
-*.log
-EOF
