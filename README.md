@@ -158,17 +158,3 @@ automated-image-pipeline/
 ├── .gitignore             # Git ignore rules
 └── README.md              # Project overview and instructions
 ```
-
----
-
-## 📌 Roadmap
-
-* [ ] WebP and AVIF format support
-* [ ] Dynamic watermark positioning
-* [ ] CloudFront CDN integration
-* [ ] Terraform/CloudFormation templates
-* [ ] Multi-region deployment support
-
----
-
-
