@@ -1,0 +1,13 @@
+{
+  "upload_bucket": "your-upload-bucket",
+  "processed_bucket": "your-processed-bucket",
+  "watermark_text": "YourBrand",
+  "image_sizes": {
+    "thumb": [128, 128],
+    "medium": [512, 512],
+    "large": [1024, 1024]
+  },
+  "quality": 85,
+  "sns_topic_arn": ""
+}
+

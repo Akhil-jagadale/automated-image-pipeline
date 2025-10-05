@@ -1,0 +1,15 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "LambdaFunctionArn": "arn:aws:lambda:ap-south-1:844820973166:function:ImageProcessor",
+      "Events": ["s3:ObjectCreated:*"],
+      "Filter": {
+        "Key": {
+          "FilterRules": [
+            { "Name": "prefix", "Value": "uploads/" }
+          ]
+        }
+      }
+    }
+  ]
+}
